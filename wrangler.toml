@@ -1,0 +1,11 @@
+name = "lengyi-wechat-writing"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# 可选：绑定自定义域名
+# routes = [{ pattern = "your-domain.com/*", zone_id = "your-zone-id" }]
+
+# KV 存储用于缓存风格文件（可选）
+[[kv_namespaces]]
+binding = "STYLES_KV"
+id = "your-kv-namespace-id"
