@@ -1,0 +1,17 @@
+{
+  "name": "lengyi-wechat-writing-workers",
+  "version": "2.0.0",
+  "description": "微信公众号自动写作工具 - Cloudflare Workers 版本",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "dependencies": {
+    "itty-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
